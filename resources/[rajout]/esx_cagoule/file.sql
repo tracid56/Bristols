@@ -1,0 +1,1 @@
+INSERT INTO `essentialmode`.`items` (`id`, `name`, `label`, `limit`, `rare`, `can_remove`) VALUES (NULL, 'cagoule', 'Cagoule', '-1', '0', '1');

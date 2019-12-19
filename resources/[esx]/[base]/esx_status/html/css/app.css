@@ -1,0 +1,22 @@
+#status_list {
+	position: absolute;
+	left   : 12.8%; /*placement horizontal*/
+	bottom : 10.7%; /*placement vertical*/
+	width  : 7.5%; /*longueur*/
+	transform: rotate(-90deg);
+    background-color: #f3f3f3;
+    background-color: rgba(243,243,243,0.4);
+}
+
+.status {
+	
+	margin: 0.3em;
+}
+
+.status_inner {
+	
+}
+
+.status_val {
+	height : 0.5em;
+}

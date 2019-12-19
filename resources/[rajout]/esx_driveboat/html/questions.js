@@ -1,0 +1,36 @@
+var tableauQuestion = [
+    {   question : "Comment vous devez vous garer dans le port ?",
+        propositionA : "Au mileu",
+        propositionB : "Sur un quai",
+        propositionC : "Sur la piste de remorquage",
+        propositionD : "Sur une bute de terre",
+        reponse : "B"},
+		
+    {   question : "Vous voiez qui arrive un bateau devant vous en vous coupant la route, Que faite vous ?",
+        propositionA : "Vous klaxoner",
+        propositionB : "Je ralenti, et j'attend qui passer",
+        propositionC : "J'essaye de passer avant lui",
+        propositionD : "Je tourne pour eviter la collision",
+        reponse : "D"},
+		
+    {   question : "Sans aucune indication : La vitesse au dessus dans un port est de __ km/h",
+        propositionA : "100",
+        propositionB : "25",
+        propositionC : "50",
+        propositionD : "75",
+        reponse : "C"},
+	
+	{   question : "Ou pouvez vous baignez ? Et quand ?",
+        propositionA : "Partout et quand je veut",
+        propositionB : "Dans un secteur dégage et sécuriser",
+        propositionC : "Au mileu de l'océan",
+        propositionD : "Au mileu du port",
+        reponse : "B"},
+		
+	{   question : "Quel est le taux d'alcoolémie dans la conduite en état d'ébriété ?",
+        propositionA : "0.05%",
+        propositionB : "0.18%",
+        propositionC : "0.08%",
+        propositionD : "0.06%",
+        reponse : "A"},
+]

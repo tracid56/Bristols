@@ -1,0 +1,94 @@
+html {
+  overflow: hidden;
+}
+@font-face {
+  font-family: 'pricedown';
+  src: url(pricedown.ttf);
+}
+#cursor {
+    position: absolute;
+    z-index: 99999999;
+    display: none;
+}
+.sans {
+  font-family: 'Open Sans', sans-serif;
+}
+.full-screen {
+  width: 100%;
+  height:100%;
+  display: flex;
+  align-items: center;
+}
+.bank-container {
+  width: 70%;
+  height: 700px;
+  background-color: #ddd;
+  border: 3px solid #222;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  display: none;
+  z-index: 9999999;
+}
+.body {
+  width: 100%;
+  height: 600px;
+  display: none;
+}
+.centered {
+  width: 100%;
+  min-height: 300px;
+  margin-left:auto;
+  margin-right: auto;
+}
+.centered a {
+  width: 100%;
+  margin-left:auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 25px 20px;
+    font-size: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin: 20px 20px 20px 20px;
+}
+
+input[type=submit], .submit {
+  height: 70px !important;
+  text-align: center !important;
+  width: 100% !important;
+  background: #017ebc;
+  background-image: linear-gradient(to bottom, #017ebc, #005285);
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 1.5em !important;
+  margin: 20px 20px 20px 20px !important;
+  padding: 20px 20px 20px 20px !important;
+  text-decoration: none;
+  border: none;
+}
+.form {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#textClue p, #textCode p {
+  width:100% !important;
+  font-size: 20px;
+}
+
+.clue-container, .code-container{
+  max-width: 80% !important;
+  padding: 40px !important;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}

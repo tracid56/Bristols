@@ -1,0 +1,271 @@
+{
+  "reseau": "Bristols",
+  
+  "themeColor": "#303f9f",
+  "colors": [
+    "#EF5350",
+    "#EC407A",
+    "#AB47BC",
+    "#7E57C2",
+    "#5C6BC0",
+    "#42A5F5",
+    "#29B6F6",
+    "#26C6DA",
+    "#26A69A",
+    "#66BB6A",
+    "#9CCC65",
+    "#D4E157",
+    "#FFCA28",
+    "#FFA726",
+    "#FF7043",
+    "#8D6E63",
+    "#78909C"
+  ],
+
+  "useFormatNumberFrance": false,
+
+  "useWebRTCVocal": false,
+  "RTCConfig": {
+    "iceServers": [{
+      "urls": ["turn:gannon.ovh"],
+      "username": "jojo",
+      "credential": "pass"
+    }]
+  },
+
+
+  "background" : {
+    "Calvin & Hobbes": "back001.jpg",
+    "Destiny": "back002.jpg",
+    "Guitare": "01.jpg",
+    "Los Santos": "02.jpg",
+    "Poursuite": "03.jpg",
+    "Franklin": "04.jpg",
+    "Police boom": "05.jpg",
+    "Trevor & Michael": "06.jpg",
+    "San Andreas": "07.jpg",
+    "Cité": "08.jpg",
+    "Ciel & Forêt": "09.jpg",
+    "Forêt Colorer": "10.jpg",
+    "Vague Géante": "11.jpg",
+    "Lion": "12.jpg",
+    "Planète": "13.jpg",
+    "Rose": "14.jpg",
+    "Bleu": "15.jpg",
+    "Noir": "16.jpg",
+    "Chocolat": "17.jpg",
+    "Assassins Creed": "18.jpg",
+    "Stalactite": "19.jpg",
+    "Origin": "20.jpg",
+    "Pacman": "21.jpg",
+    "Custom": "URL"
+  },
+  "background_default": {
+    "label": "Calvin & Hobbes",
+    "value": "back001.jpg"
+  },
+  "coque": {
+    "Samsumg S8": "s8.png",
+    "Iphone X": "iphonex.png"
+  },
+  "coque_default": {
+    "label": "Iphone X",
+    "value": "iphonex.png"
+  },
+
+
+  "serviceCall": [
+    {
+      "display": "Gouvernement",
+      "icon": "/html/static/img/icons_app/state.png",
+      "subMenu": [
+        {
+          "title": "Envoyer un message",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "gouvernor"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Police",
+      "icon": "/html/static/img/icons_app/policier.png",
+      "subMenu": [
+        {
+          "title": "Envoyer un message",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "police"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Sheriff",
+      "icon": "/html/static/img/icons_app/policier.png",
+      "subMenu": [
+        {
+          "title": "Envoyer un message",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "sheriff"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Ambulance",
+      "icon": "/html/static/img/icons_app/ambulancier.png",
+      "subMenu": [
+        {
+          "title": "Envoyer un message",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "ambulance"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Mécano",
+      "icon": "/html/static/img/icons_app/mecano.png",
+      "subMenu": [
+        {
+          "title": "Envoyer un message",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "mecano"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Taxi",
+      "icon": "/html/static/img/icons_app/taxi.png",
+      "subMenu": [
+        {
+          "title": "Envoyer un message",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "taxi"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Journaliste",
+      "icon": "/html/static/img/icons_app/journaliste.png",
+      "subMenu": [
+        {
+          "title": "Envoyer un message",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "journaliste"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Unicorn",
+	  "icon": "/html/static/img/icons_app/unicorn.png",
+      "subMenu": [
+        {
+          "title": "Envoyer un message",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "unicorn"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Bahamas Mamas",
+      "icon": "/html/static/img/icons_app/bahama.png",
+      "subMenu": [
+        {
+          "title": "Envoyer un message",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "bahama"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Épicier",
+	  "icon": "/html/static/img/icons_app/epicerie.png",
+      "subMenu": [
+        {
+          "title": "Envoyer un message",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "epicier"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Organisateur",
+      "subMenu": [
+        {
+          "title": "Envoyer un message",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "organisateur"
+          }
+        }
+      ]
+    },
+    {
+      "display": "PDM",
+      "subMenu": [
+        {
+          "title": "Envoyer un message",
+          "eventName": "esx_addons_gcphone:call",
+          "type": {
+            "number": "pdm"
+          }
+        }
+      ]
+    }
+  ],
+
+  "apps": [
+    {
+      "name": "Téléphone",
+      "icons": "/html/static/img/icons_app/call.png",
+      "routeName": "appels",
+      "inHomePage": true
+    },
+    {
+      "name": "Messages",
+      "icons": "/html/static/img/icons_app/sms.png",
+      "routeName": "messages",
+      "inHomePage": true,
+      "puceRef": "nbMessagesUnread"
+    },
+    {
+      "name": "Contacts",
+      "icons": "/html/static/img/icons_app/contacts.png",
+      "routeName": "contacts",
+      "inHomePage": true
+    },
+    {
+      "name": "Paramètres",
+      "icons": "/html/static/img/icons_app/settings.png",
+      "routeName": "parametre",
+      "inHomePage": true
+    },
+    {
+      "name": "Photo",
+      "icons": "/html/static/img/icons_app/photo.png",
+      "routeName": "photo"
+    },
+    {
+      "name": "Dark Chat",
+      "icons": "/html/static/img/icons_app/tchat.png",
+      "routeName": "tchat"
+    }
+  ]
+}
